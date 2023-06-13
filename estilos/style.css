@@ -7,3 +7,6 @@ body{background: url(../imagens/fundo-madeira.jpg) no-repeat top center fixed;ba
 main{height: 100vh;position: relative;}
 section#celular{height: 627px;width: 311px;position: absolute;top: 50%;left: 50%;transform: translate(-50%, -50%);background:url('../imagens/frame-iphone.png') no-repeat;}
 iframe#tela{position: relative;top: 80px;left: 22px;width: 267px;height: 471px;}
+section#redes-sociais img{width: 50px;height: 50px;margin: 10px;border-radius:100px;box-shadow: 1px 1px 3px black;box-sizing: border-box;}
+section#redes-sociais{text-align: right;}
+section#redes-sociais img:hover{border: white 2px solid;transform: translate(-2px, -2px);box-shadow: 3px 2px 3px black;transition: transform 0.3s, border 0.4s;}
